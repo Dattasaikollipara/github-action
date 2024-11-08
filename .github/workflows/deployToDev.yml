@@ -5,7 +5,7 @@ on:
   pull_request:
     types: [closed] #closed --> closed/merged
     branches:
-      - develop
+      - feature/US-2398
     paths:
       - 'force-app/**'
 
