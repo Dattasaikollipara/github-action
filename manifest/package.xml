@@ -9,7 +9,6 @@
 		<members>AssetTriggerHelper</members>
 		<members>AssetTriggerTest</members>
 		<members>CaseTriggerHandler</members>
-		<members>CaseTriggerHandlerTest</members>
 		<members>GeoCodeService</members>
 		<members>GeoCodeServiceTest</members>
 		<members>MyFirstApexClass</members>

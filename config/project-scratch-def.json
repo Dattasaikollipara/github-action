@@ -1,6 +1,6 @@
 {
-  "orgName": "PantherSchools Company",
-  "edition": "Enterprise",
+  "orgName": "dev-hub",
+  "edition": "Unlimited",
   "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
