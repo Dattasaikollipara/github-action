@@ -1,5 +1,5 @@
 name: Github Actions Demo By PantherSchools
-run-name: Amit Singh is running the Github Actions
+run-name: ${{ github.actor }} is running the Github Actions
 ## Pipeline will be running mainly on 2 events most of time
 ## Push, Pull request
 on: [push, pull_request]
