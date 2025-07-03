@@ -16,8 +16,17 @@ jobs:
         uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
-      - name: npm install
-        run: npm install
+        ## Install Salesforce CLI
+      - name: Install Salesforce CLI
+        run: npm install @salesforce/cli --global
+        ## Login OR Connect to Salesforce using JWT Token
+        #### 1. Connected Application and configure the user
+        ## SSL Certificate [OpenSSL]
+
+      - name: Authorize with Salesforce org
+        run: sf org login jwt --username kolliparasai987490@agentforce.com --jwt-key-file assets/server.key --client-id 3MVG9rZjd7MXFdLgum2oIV1NbdrH4BQ49N3JqIPHp1EdYSvmbh0hgmSROiDrzWHGENqUKbjATkHg_Gu8Gf1RQ --set-default --alias ci-org --instance-url https://login.salesforce.com
+      - name: Print User Information
+        run: sf org display user -o ci-org
   clean-up:
     runs-on: ubuntu-latest
     steps:
