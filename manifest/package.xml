@@ -41,11 +41,11 @@
 		<name>Layout</name>
 	</types>
 	<types>
-		<members>DevSecOps_PermissionSet</members>
+		<members>Dattasai_PermissionSet</members>
 		<name>PermissionSet</name>
 	</types>
 	<types>
-		<members>PantherSchools - DevOps User</members>
+		<members>PantherSchools - dattasai User</members>
 		<name>Profile</name>
 	</types>
 	<version>60.0</version>
